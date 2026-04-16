@@ -16,11 +16,12 @@ function App() {
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
         <div>
-          <h1>Anne Lin</h1>
-          <h2>linyuen</h2>
+          <h1>Hello This is Anne Lin</h1>
           <p>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
+          <p>name: Anne Lin</p>
+          <p>uniqname: linyuen</p>
         </div>
         <button
           className="counter"
@@ -28,6 +29,7 @@ function App() {
         >
           Count is {count}
         </button>
+        <p>Count 3 times: {count*3}</p>
       </section>
 
       <div className="ticks"></div>
